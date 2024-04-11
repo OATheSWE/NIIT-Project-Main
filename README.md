@@ -1,6 +1,6 @@
 # Project Title
 
-**WebApp-Starter**
+**NIIT Project**
 
 ## Description
 
@@ -36,14 +36,15 @@ This template provides a ready-to-use Expo project with TypeScript, Mantine UI f
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/OATheSWE/WebApp-Starter.git
+   git clone https://github.com/OATheSWE/NIIT-Project-Main.git
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd WebApp-Starter
+   cd NIIT-Project-Main
    yarn install
+   npx expo install --fix
    ```
 
 
