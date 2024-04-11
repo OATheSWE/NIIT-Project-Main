@@ -1,0 +1,25 @@
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    color: black;
+    
+
+  }
+  
+  .icon {
+    margin-right: var(--mantine-spacing-md);
+    background-color: transparent;
+  }
+  
+  .title {
+    color: #FF3E54;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .description {
+    color: #0E1F51;
+    font-weight: 500;
+  }

@@ -1,0 +1,44 @@
+.root{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    flex: 1;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.input {
+    border-width: 0 0 1px 0;
+    border-color: black;
+    border-radius: 0;
+    padding: 0;
+}
+
+.label {
+    width: 300px;
+}
+
+.table {
+    border-color: black;
+    border: 1.5px solid;
+}
+
+.th {
+    padding: 1px;
+    border: 1.5px solid;
+    border-color: black;
+}
+
+.tr {
+    border-color: black;
+    border: 1.5px solid;
+}
+
+.td {
+    border-color: black;
+    border: 1.5px solid;
+    padding: 0;
+    padding-left: 8px;
+}

@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#",
-        secondary: "#",
+        primary: "#f44336",
+        secondary: "#fff3f3",
         accent: "#",
       },
       fontFamily: {
@@ -18,6 +18,11 @@ module.exports = {
         disc: "disc",
         decimal: "decimal",
       },
+    },
+  },
+  variants: {
+    extend: {
+      backgroundColor: ['group-hover'],
     },
   },
   plugins: [],

@@ -1,0 +1,21 @@
+.wrapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form {
+  border-right: rem(1px) solid
+    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));
+  max-width: 45%;
+  padding-top: rem(80px);
+  min-height: 100vh;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    max-width: 100%;
+  }
+}
+
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}

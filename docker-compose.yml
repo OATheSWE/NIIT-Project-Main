@@ -1,0 +1,24 @@
+# docker-compose.yml
+
+version: '3'
+services:
+  server:
+    image: postgrest/postgrest
+    ports:
+      - "3000:3000"
+    environment:
+      PGRST_DB_URI: postgres://postgres:ogechi12@db:5432/e-Byte Africa
+      PGRST_OPENAPI_SERVER_PROXY_URI: http://127.0.0.1:3000
+    depends_on:
+      - db
+  db:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: e-Byte Africa
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ogechi12
+  # Uncomment this if you want to persist the data.
+  # volumes:
+  #   - "./pgdata:/var/lib/postgresql/data"
